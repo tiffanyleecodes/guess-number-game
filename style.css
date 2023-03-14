@@ -1,0 +1,99 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0cm;
+  font-family: "Roboto Slab", serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+}
+
+main {
+  background-color: rgb(163, 180, 176);
+  padding: 1.5rem 3rem;
+ width:500px;
+ border-radius: .5rem;
+ 
+}
+section {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  margin: 5rem 0 2rem 0;
+  gap: 2rem;
+}
+
+.numberWindow {
+  background-color: rgb(196, 211, 194);
+  width: 5rem;
+  padding: 0.5rem 1rem;
+  text-align: center;
+  margin: 2rem auto;
+  font-size: 3rem;
+  border-radius: 5px;
+}
+
+input {
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.3rem;
+  margin: 1rem 0;
+  border-radius: 5px;
+  border: none;
+  text-align: center;
+}
+
+.check {
+
+  background-color: rgb(225, 222, 217);
+  padding: 0.3rem 2rem;
+  border: none;
+  border-radius: 5px;
+}
+
+.check:hover {
+  cursor: pointer;
+  background-color: crimson;
+  color: beige;
+}
+ 
+}
+
+.scorePart {
+  margin: auto;
+  text-align: left;
+  
+}
+
+.hint,
+.currentScore,
+.high {
+  font-size: 1rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  margin: 0.5rem 0;
+}
+
+.scorePart div {
+  text-align: center;
+  
+}
+
+.reset {
+  border: none;
+  padding: 0.5rem 2rem;
+  border-radius: 5px;
+  margin:1rem 0
+}
+
+.reset:hover {
+  cursor: pointer;
+  background-color: crimson;
+  color: beige;
+}
+
+/*  */
